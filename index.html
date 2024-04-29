@@ -1,20 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Homepage</title>
-    <link rel="stylesheet" href="screen.css">
-  </head>
-  <body>
-    <h1>Home</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html" class="active">Home</a></li>
-        <li><a href="about.html">About</a></li>
-      </ul>
-    </nav>
-    <script src="index.js"></script>
-  </body>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Challenge 7</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+	<link rel="stylesheet"
+		href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+	<link rel="stylesheet" href="screen.css">
+</head>
+
+<body>
+	<div class="container">
+
+		<nav class="d-flex justify-content-between">
+
+			<div>
+				<div class="btn-group">
+					<button class="btn btn-secondary dropdown-toggle" id="select" type="button"
+						data-bs-toggle="dropdown" aria-expanded="false">
+						Popular
+					</button>
+					<ul class="dropdown-menu">
+						<li><a class="dropdown-item" href="#">Popular</a></li>
+						<li><a class="dropdown-item" href="#">New & Noteworthy</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div>
+				<ul class="nav nav-pills nav-light">
+					<li class="nav-item">
+						<a class="nav-link active" id="pill-active" aria-current="page" href="#">Discover</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Animation</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Branding</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Illustration</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Mobile</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Print</a>
+					</li>
+				</ul>
+			</div>
+
+			<div>
+				<button type="button" class="btn d-flex align-items-center gap-2" id="select"><img
+						src="filter_list_FILL0_wght400_GRAD0_opsz20.png" alt="filter">Filters</button>
+			</div>
+
+		</nav>
+
+		<main>
+
+			<div class="row mb-4">
+
+				<div class="col-4">
+					<img src="still-bd81cee8f12dcd20212c18dd68b31b11.png" alt="two phones" width="100%">
+					<div class="d-flex align-items-center gap-2" id="card-row">
+						<div>
+							<img src="e85fef4e7e089faadb207936512ad1a8.png" alt="logo">
+						</div>
+						<div>
+							<p class="pt-3">Desire Creative Agency <span
+									class="badge text-bg-secondary text-bg-light">PRO</span></p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-4">
+					<img src="original-b3a5351dd09cb0b05c6fe85985f3f6ab.png" alt="travelasis" width="100%">
+					<div class="d-flex align-items-center gap-2" id="card-row">
+						<div>
+							<img src="1454c283565b93105af3bdb1cea1d036.jpg" alt="logo">
+						</div>
+						<div>
+							<p class="pt-3">Sujon Hossain <span
+									class="badge text-bg-secondary text-bg-light">PRO</span></p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-4">
+					<img src="upnow.jpg" alt="upnow" width="100%">
+					<div class="d-flex align-items-center gap-2" id="card-row">
+						<div>
+							<img src="upnow-logo.jpg" alt="logo">
+						</div>
+						<div>
+							<p class="pt-3">Upnow Studio<span
+									class="badge text-bg-secondary text-bg-light">TEAM</span></p>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="row">
+
+				<div class="col-4">
+					<img src="plainthing.png" alt="plainthing" width="100%">
+					<div class="d-flex align-items-center gap-2" id="card-row">
+						<div>
+							<img src="plainthing-logo.png" alt="logo">
+						</div>
+						<div>
+							<p class="pt-3">Plainthing Studio <span
+									class="badge text-bg-secondary text-bg-light">TEAM</span></p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-4">
+					<img src="58834bc7e223e5cfba91fc0f6fd42983.png" alt="dstudio" width="100%">
+					<div class="d-flex align-items-center gap-2" id="card-row">
+						<div>
+							<img src="dstudio-logo.png" alt="logo">
+						</div>
+						<div>
+							<p class="pt-3">DStudio® <span
+									class="badge text-bg-secondary text-bg-light">PRO</span></p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-4">
+					<img src="interactive.png" alt="interactive" width="100%">
+					<div class="d-flex align-items-center gap-2" id="card-row">
+						<div>
+							<img src="interactive-logo.png" alt="logo">
+						</div>
+						<div>
+							<p class="pt-3">Interactive Labs <span
+									class="badge text-bg-secondary text-bg-light">TEAM</span></p>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+		</main>
+
+	</div>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+		crossorigin="anonymous"></script>
+</body>
+
 </html>
